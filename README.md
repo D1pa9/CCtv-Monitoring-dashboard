@@ -68,6 +68,15 @@ Make sure prisma/seed.ts is defined in prisma.schema.
 npm run dev
 Visit: http://localhost:3000
 
+### Deployment Note
+Due to Prisma and type compatibility issues with Vercel's build environment, the app could not be deployed live. You can clone and run it locally using:
+
+git clone https://github.com/your-username/CCtv-Monitoring-dashboard.git
+cd CCtv-Monitoring-dashboard
+npm install
+npx prisma migrate dev --name init
+npm run dev
+
 ****Future Enhancements****
 Interactive Timeline
 Add a 24-hour SVG/Canvas-based ruler below the incident player.
@@ -99,6 +108,7 @@ Possible integrations:
 useGLTF for models.
 
 OrbitControls for interactivity.
+
 
 
 Developed By
