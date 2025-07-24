@@ -67,5 +67,39 @@ Make sure prisma/seed.ts is defined in prisma.schema.
 
 npm run dev
 Visit: http://localhost:3000
+
+****Future Enhancements****
+Interactive Timeline
+Add a 24-hour SVG/Canvas-based ruler below the incident player.
+
+Plot:
+
+** Incident markers at their timestamps.**
+** A draggable scrubber to seek through the timeline.**
+
+Snap video to timestamps as the user drags.
+
+Tooltip or preview on hover over incidents.
+
+**3D Web Experience (React Three Fiber)**
+On a separate route (e.g., /3d) or project:
+
+Build a 3D dashboard using React Three Fiber and @react-three/drei.
+
+Sections:
+
+Intro scene with subtle camera animation.
+
+Product showcase or 3D CCTV environment model.
+
+Animate transitions, hover effects, and lighting based on Figma instructions.
+
+Possible integrations:
+
+useGLTF for models.
+
+OrbitControls for interactivity.
+
+
 Developed By
 DIPA SHARMA
